@@ -4,7 +4,10 @@ arreglo, objeto, etc. */
 let nombre: string = "Mario";               //variable cadena
 let mayorEdad: boolean = true;              //variable boolean
 let edad: number = 36;                      //variable number
-let arrayTaller: number[] = [1,2,3,4]       //variable arreglo
+let arrayTaller: number[] = [1,2,3,4];       //variable arreglo
+
+type miObjeto = {nombre:string; mayorEdad:boolean};
+let objetoTaller: miObjeto = {nombre:"Mario", mayorEdad:true };
 
 /* Utilicen tipos de literales para limitar los valores de una variable. */
 /* Creen funciones básicas con diferentes tipos de parámetros y tipos de retorno. */
