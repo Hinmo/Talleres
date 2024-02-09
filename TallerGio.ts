@@ -1,1 +1,3 @@
-console.log("Hola Gio")
+const prueba= () =>{
+    console.log("Hola Gio")
+}
